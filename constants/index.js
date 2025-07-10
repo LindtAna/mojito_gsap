@@ -44,7 +44,7 @@ const cocktailLists = [
  },
 ];
 
-const mockTailLists = [
+const mocktailLists = [
  {
 	name: "Shirley Temple",
 	country: "US",
@@ -172,7 +172,7 @@ const allCocktails = [
 export {
  navLinks,
  cocktailLists,
- mockTailLists,
+ mocktailLists,
  profileLists,
  featureLists,
  goodLists,
