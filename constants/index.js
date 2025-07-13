@@ -8,7 +8,7 @@ const navLinks = [
 	title: "About Us",
  },
  {
-	id: "work",
+	id: "creating",
 	title: "Creating",
  },
  {
@@ -141,7 +141,7 @@ const allCocktails = [
 	image: "/images/drink1.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Refreshing Cuban cocktail made with white rum, fresh mint, lime juice, sugar, and soda water. It's light, crisp, and perfect for hot summer days.",
  },
  {
 	id: 2,
@@ -149,7 +149,7 @@ const allCocktails = [
 	image: "/images/drink2.png",
 	title: "A Zesty Classic That Never Fails",
 	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+	 "Fruity twist on the classic mojito, made with raspberries, mint, lime, and rum. It's a light and vibrant drink, ideal for warm days.",
  },
  {
 	id: 3,
@@ -157,7 +157,7 @@ const allCocktails = [
 	image: "/images/drink3.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Vibrant blend of floral and fruity flavors with a delicate purple hue. It combines crème de violette, vodka, and citrus for a light and elegant taste.",
  },
  {
 	id: 4,
@@ -165,7 +165,7 @@ const allCocktails = [
 	image: "/images/drink4.png",
 	title: "Crafted With Care, Poured With Love",
 	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+	 "Tropical cocktail with a hint of citrus and herbal mint notes. The blue liqueur adds a unique color and light sweetness to the classic combination of lime and mint.",
  },
 ];
 
