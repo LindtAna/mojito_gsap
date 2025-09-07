@@ -1,4 +1,5 @@
-"use client"; 
+"use client";
+import { useRef, useState } from "react";
 import { allCocktails } from "../../constants/index.js"; // Import der Liste aller Cocktails aus Constants (Array mit Objekten: id, name, image, title, description)
 import { useGSAP } from "@gsap/react"; // GSAP-Hook für React-Integration von Animationen
 import gsap from "gsap";
