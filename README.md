@@ -6,13 +6,14 @@ https://mojito-gsap-ruby.vercel.app/
 
 ## Projektbeschreibung
 
-GSAP-gesteuerte Cocktail-Website mit React und Tailwind CSS – ein scrollgesteuertes Erlebnis voller Animationen.
+GSAP-gesteuerte Cocktail-Website mit React und Tailwind CSS.
 
-Dynamische SplitText-Enthüllungen, flüssiges Parallax-Scrollen und ScrollTrigger-Effekte sorgen für visuelle Highlights.
+Dynamische SplitText-Enthüllungen, Parallax-Scrolling und ScrollTrigger-Effekte.
 
-Abschnitte werden mit festgesetzten Animationen versehen, Videos lassen sich nahtlos an die Scroll-Position koppeln und Bildmaskierungen verstärken den Eindruck.
+Fixierte Abschnitte mit individuellen Animationen; Videos lassen sich nahtlos an die Scroll-Position koppeln.
 
-Ein maßgeschneidertes animiertes Karussell und durchgehende Timeline-Animationen über alle Sektionen runden die voll responsive Benutzeroberfläche ab.
+Ein animiertes Karussell sowie durchgehende Timeline-Animationen über alle Sektionen.
+
 
 ## Design
 
@@ -25,19 +26,21 @@ https://www.figma.com/design/MByXaI8pcleIbgTvsDat1X/Cocktail-GSAP-Website?node-i
 
 ## Funktionalität / Features
 
-- Dynamische Text-Enthüllungen mit GSAP SplitText für ansprechende Intros und Abschnitts-Highlights
+- Dynamische Text-Enthüllungen mit GSAP SplitText für Intros und Abschnitts-Highlights
 - Scrollbasierte Animationen und Timeline-Steuerung mit GSAP ScrollTrigger
-- Flüssige Parallax-Effekte, die auf das Scrollverhalten reagieren
+- Parallax-Effekte, die auf das Scrollverhalten reagieren
 - Festgesetzte Abschnitte, in denen Inhalte animiert werden, während sie fixiert bleiben
 - Synchronisierte Videowiedergabe basierend auf der Scroll-Position
-- Scrollgetriggerte Pins und Maskierungen für eindrucksvolle Bildübergänge
-- Individuelles Karussell mit mehreren Navigationsoptionen und animierten Slides
+- Scrollgetriggerte Pins und Maskierungen für Bildübergänge
+- Karussell mit mehreren Navigationsoptionen und animierten Slides
 - Durchgängige Zeitachsenanimationen über mehrere Sektionen hinweg
 - Fließende UI und adaptive GSAP-Animationen für alle Bildschirmgrößen
 
 ## Projektstruktur
 
 Mint+Lime ist nach funktionalen Bereichen in Ordnern organisiert:
+- **index.js**  
+  Alle alle statischen Konfigurationsdaten der App (Navigationslinks, Listen, Kontaktinformationen, detaillierte Cocktail-Objekte usw )
 
 - **public**  
   Schriftarten, Icons, Videos und statische Dateien.
@@ -52,7 +55,7 @@ Mint+Lime ist nach funktionalen Bereichen in Ordnern organisiert:
   Hauptkomponente, die GSAP-Plugins registriert und alle Sektionen rendert.
 
 - **index.css**  
-  Globale Styles und CSS-Variablen.
+ Definiert globale Styles und Theme-Variablen, legt wiederverwendbare Utility-Klassen fest und enthält komponenspezifische CSS-Regeln für alle Hauptsektionen der App (Hero, Cocktails, About, Creating, Menu, Contact).  
 
 ```
 mojito_gsap/
