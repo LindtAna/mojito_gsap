@@ -185,7 +185,7 @@ body {
     }
 
     #about {
-        @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
+        @apply min-h-screen 2xl:px-0 px-5 container mx-auto;
 
         .content {
             @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
@@ -241,10 +241,10 @@ body {
     }
 
     #creating {
-        @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
+        @apply flex-center flex-col min-h-dvh p-5 mt-10 relative radial-gradient;
 
         h2 {
-            @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#8f7837] mb-8;
+            @apply relative md:text-[20vw] text-7xl text-nowrap leading-none font-modern-negra text-center text-[#8f7837] mb-8;
         }
 
         .content {
