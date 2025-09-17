@@ -4,10 +4,7 @@
 
 https://mojito-gsap-ruby.vercel.app/
 
-## Projektbeschreibung
-
 GSAP-gesteuerte Cocktail-Website mit React und Tailwind CSS.
-
 Dynamische SplitText-Enthüllungen, Parallax-Scrolling und ScrollTrigger-Effekte.
 
 Fixierte Abschnitte mit individuellen Animationen; Videos lassen sich nahtlos an die Scroll-Position koppeln.
@@ -24,7 +21,7 @@ Die Benutzeroberfläche ist responsiv und modular aufgebaut.
 Das UI-Design basiert auf folgendem Figma-Template:  
 https://www.figma.com/design/MByXaI8pcleIbgTvsDat1X/Cocktail-GSAP-Website?node-id=2-2&p=f&t=ec946Q9awcYqOesl-0
 
-## Funktionalität / Features
+## Funktionalität
 
 - Dynamische Text-Enthüllungen mit GSAP SplitText für Intros und Abschnitts-Highlights
 - Scrollbasierte Animationen und Timeline-Steuerung mit GSAP ScrollTrigger
@@ -37,26 +34,6 @@ https://www.figma.com/design/MByXaI8pcleIbgTvsDat1X/Cocktail-GSAP-Website?node-i
 - Fließende UI und adaptive GSAP-Animationen für alle Bildschirmgrößen
 
 ## Projektstruktur
-
-Mint+Lime ist nach funktionalen Bereichen in Ordnern organisiert:
-- **index.js**  
-  Alle alle statischen Konfigurationsdaten der App (Navigationslinks, Listen, Kontaktinformationen, detaillierte Cocktail-Objekte usw )
-
-- **public**  
-  Schriftarten, Icons, Videos und statische Dateien.
-
-- **src**  
-  Quellcode der Anwendung.
-
-- **components**  
-  Komponenten für einzelne Sektionen der App.
-
-- **App.jsx**  
-  Hauptkomponente, die GSAP-Plugins registriert und alle Sektionen rendert.
-
-- **index.css**  
- Definiert globale Styles und Theme-Variablen, legt wiederverwendbare Utility-Klassen fest und enthält komponenspezifische CSS-Regeln für alle Hauptsektionen der App (Hero, Cocktails, About, Creating, Menu, Contact).  
-
 ```
 mojito_gsap/
 ├── constants/
@@ -80,7 +57,26 @@ mojito_gsap/
 ├── README.md
 └── index.html
 ```
+Mint+Lime ist nach funktionalen Bereichen in Ordnern organisiert:
+- **index.js**  
+  Alle alle statischen Konfigurationsdaten der App (Navigationslinks, Listen, Kontaktinformationen, detaillierte Cocktail-Objekte usw )
 
+- **public**  
+  Schriftarten, Icons, Videos und statische Dateien.
+
+- **src**  
+  Quellcode der Anwendung.
+
+- **components**  
+  Komponenten für einzelne Sektionen der App.
+
+- **App.jsx**  
+  Hauptkomponente, die GSAP-Plugins registriert und alle Sektionen rendert.
+
+- **index.css**  
+ Definiert globale Styles und Theme-Variablen, legt wiederverwendbare Utility-Klassen fest und enthält komponenspezifische CSS-Regeln für alle Hauptsektionen der App (Hero, Cocktails, About, Creating, Menu, Contact).  
+
+---
 ## Technologie-Stack
 
 | Technologie   | Beschreibung                                                                                                                                                                   |
