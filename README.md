@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-https://mojito-gsap-ruby.vercel.app/
+https://mint-and-lime.vercel.app/
 
 GSAP-gesteuerte Cocktail-Website mit React und Tailwind CSS.
 Dynamische SplitText-Enthüllungen, Parallax-Scrolling und ScrollTrigger-Effekte.
